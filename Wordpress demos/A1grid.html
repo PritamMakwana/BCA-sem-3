@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+
+        .section{
+            /* border: 2px solid; */
+            height: 50vh;
+            display: grid;
+            grid-template-areas: 
+            'part1 part1 part2'
+            'part3 part4 part4';
+            
+        }
+        .part1{
+            grid-area: part1;
+            margin: 10px 10px;
+        }
+        .part2{
+            grid-area: part2;
+            margin: 10px 10px;
+
+           
+        }
+        .part3{
+            grid-area: part3;
+            margin: 10px 10px;
+
+        }
+        .part4{
+            grid-area: part4;
+            margin: 10px 10px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="section">
+
+        <div class="part1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!</p>
+        </div>
+        <div class="part2">
+            <img src="gleee.png" >
+           
+        </div>
+        <div class="part3" >
+            <img src="gleee.png">
+
+        </div>
+        <div class="part4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lib
+                ero quam laborum expedita et odit deserunt, accusamus cumque 
+                perferendis, iusto accusantium similique ullam sed voluptatum eos
+                . Non cum a tenetur vitae!</p>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>

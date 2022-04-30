@@ -1,0 +1,21 @@
+#include<conio.h>
+#include<iostream.h>
+int main()
+{
+	int i,c,a=1;
+
+	for(i=1;i<=4;i++)
+	{
+		for(c=1;c<=i;c++)
+		{
+
+
+				cout<<a;
+				a++;
+
+		}
+		cout<<endl;
+
+	 }
+	 return 0;
+}

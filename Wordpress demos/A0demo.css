@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background:url("Abstract1.jpg")no-repeat;
+	background-size:cover;
+	height: 40vh;
+}
+.navbar{
+	height:70px;
+	width:100%;
+/*	background: rgba(0,0,0,0.4);*/
+	background: rgba(10, 7, 235, 0.425)
+}
+.btn1{
+	text-align: center;
+	background-color: rgb(15, 103, 204);
+	font-size: large;
+	font-style: oblique;
+    color:white;
+	border-radius: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	width: 130px;
+	height:40px;
+	margin-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+.navbar ul{
+	float:right;
+	margin-right: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:black;
+	font-size:20px;
+	padding: 6px 13px;
+	font-family: 'Roboto',sans-serif;
+	transform: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #BEB4F9;
+	border-radius: 2px;
+}
+
+.lbox{
+	float: left;
+	background-color: rgb(31, 196, 67);
+	width: 30%;
+	height: 100px;
+	margin: 10px;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 30px;
+}
+.mbox{
+	float:left;
+	background-color: rgb(93, 85, 202);
+	width: 30%;
+	height: 100px;
+	margin: 10px;
+	font-size:12px;
+	padding: 10px;
+	border-radius: 30px;
+}
+.rbox{
+	float: right;
+	background-color: rgb(196, 31, 160);
+	width: 30.5%;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 12px;
+	border-radius: 30px;
+}
+.info{
+	float: right;
+	background-color: rgb(241, 227, 231);
+	width:97%;
+	height: 150px;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.info h1{
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.wr{
+	font-style: italic;
+	font-size: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	color: #190563;
+}
+
+.doo .foo ul{
+	background-size:cover;
+	/* height: 100vh; */
+	height: 70px;
+	width:100%;
+	background: rgba(111, 97, 236, 0.363);
+}
+
+.foo ul{
+	float:left;
+	margin-right: 20px;
+}
+
+.foo ul li{
+	list-style: none;
+	margin: 0px 8px;
+	display: inline-block;
+	line-height: 80px;
+	padding-bottom: 10px;
+}
+.foo ul li a{
+	text-decoration: none;
+	color:black;
+	font-style: normal;
+	font-size:20px;
+	padding: 2px 2px;
+	font-family: 'Roboto',sans-serif;
+	transform: .4s;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+

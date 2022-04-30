@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*Theme Name: wwe
+Theme URI: https://google.com
+Author: jay dabasara
+Author URI: https://youtube.com
+Description: uiawesdfhjknsdjkhfuihsdfjkcfuilyhsdfjysdfhcioysdjc
+Version: 9889348989.0 
+Tags: xx,x,rwr,sx,sdffc,sdf,xxx,x,xcvx,jsda,x
+*/
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+.header{
+  height:80px;
+	width:100%;
+	background: rgba(10, 7, 235, 0.425)
+}
+.header ul{
+	float:right;
+	margin-right: 20px;
+	
+}
+.header ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.body{
+	background:#CCC;
+	height:80%;
+}
+.heading{
+	background-color:#9CF; 
+	height:10%;
+}
+.heading h1{
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+}
+.info{
+background-color:#36C; 
+margin:10px;
+height:10%;
+	
+}
+.info p{
+	font-size:14px;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer {
+	width:100%;
+	height:70px;
+	background:#FCF;
+}
+.footer ul{
+	
+	float:right;
+	margin-right: 20px;
+}
+.footer ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+	
+}
